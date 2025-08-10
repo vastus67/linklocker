@@ -4,19 +4,19 @@ Never lose a link again! LinkLocker automatically tracks and organizes every lin
 
 ## Features
 
-### 🆓 Free Tier
-- ✅ Automatically logs every link you click or open
-- ✅ Stores title, URL, and timestamp locally
-- ✅ Local searchable history (last 200 links)
-- ✅ Simple interface to browse, copy, or reopen links
-- ✅ Pause/resume logging functionality
+###  Free Tier
+-  Automatically logs every link you click or open
+-  Stores title, URL, and timestamp locally
+-  Local searchable history (last 200 links)
+- Simple interface to browse, copy, or reopen links
+- Pause/resume logging functionality
 
 ### 🔓 Premium Features (Coming Soon)
 - 🧠 GPT-powered auto-tagging
 - 🔎 Smart search by topic/intent
 - 🗂 Folder and tag organization
 - 📤 Export as Markdown/CSV
-- ☁️ Optional cloud sync
+- ☁️ Optional cloud syn
 - ∞ Unlimited link history
 
 ## Installation
@@ -64,11 +64,3 @@ This extension uses:
 - [ ] Advanced search and filtering
 - [ ] Data export functionality
 - [ ] Link categorization
-
-## Support
-
-For issues or feature requests, please visit [linklocker.app](https://linklocker.app)
-
-## License
-
-MIT License - see LICENSE file for details
