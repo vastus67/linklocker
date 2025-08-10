@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LinkLocker</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <!-- Header -->
+    <header class="header">
+      <div class="header-content">
+        <div class="logo-section">
+          <div class="logo">⚡</div>
+          <h1 class="title">LinkLocker</h1>
+        </div>
+        <div class="stats">
+          <span id="linkCount" class="link-count">0</span>
+          <span class="link-label">links</span>
+        </div>
+      </div>
+    </header>
+
+    <!-- Controls -->
+    <div class="controls">
+      <div class="search-container">
+        <input 
+          type="text" 
+          id="searchInput" 
+          placeholder="Search links..." 
+          class="search-input"
+        >
+        <button id="clearSearch" class="clear-search" style="display: none;">×</button>
+      </div>
+      
+      <div class="control-buttons">
+        <button id="toggleLogging" class="toggle-btn active" title="Toggle logging">
+          <span class="toggle-icon">◉</span>
+          <span class="toggle-text">Recording</span>
+        </button>
+        <button id="clearLinks" class="clear-btn" title="Clear all links">
+          <span>⚠</span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Link List -->
+    <div class="link-list-container">
+      <div id="linkList" class="link-list"></div>
+      <div id="emptyState" class="empty-state">
+        <div class="empty-icon">⚡</div>
+        <h3>System Ready</h3>
+        <p>Neural link monitoring active. Begin browsing to populate data matrix.</p>
+      </div>
+      <div id="noResults" class="no-results" style="display: none;">
+        <div class="empty-icon">⚠</div>
+        <h3>No Data Found</h3>
+        <p>Recalibrate search parameters and retry query.</p>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="upgrade-prompt">
+        <p>Neural Capacity: <span id="usageCount">0</span>/200 nodes</p>
+        <button class="upgrade-btn">Enhance System</button>
+      </div>
+    </footer>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>
